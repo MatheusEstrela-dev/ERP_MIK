@@ -31,5 +31,5 @@ Este projeto é um ERP de um site desenvolvido em **Laravel 12**, utilizando **D
 ## 🎓 Sobre o Desenvolvedor
 
 **Matheus Estrela**  
-Analista de Dados | Desenvolvedor Laravel & Docker  
+Analista de Sistemas | Desenvolvedor FullStack
 🔗 [LinkedIn](https://www.linkedin.com/in/matheus-estrela-32072a104/)
