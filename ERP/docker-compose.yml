@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+    app:
+        build:
+            context: .
+        container_name: laravel_app
+        ports:
+            - "8000:8000"
+        volumes:
+            - .:/var/www
+        depends_on:
+            - db
+        environment:
+            DB_CONNECTION: pgsql
+            DB_HOST: db
+            DB_PORT: 5432
+            DB_DATABASE: laravel
+            DB_USERNAME: postgres
+            DB_PASSWORD: admin
+
+    db:
+        image: postgres:17.4
+        container_name: postgres_db
+        restart: always
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_DB: laravel
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: admin
+        volumes:
+            - pgdata:/var/lib/postgresql/data
+
+volumes:
+    pgdata:
