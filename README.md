@@ -26,7 +26,7 @@ Este projeto é um ERP de um site desenvolvido em **Laravel 12**, utilizando **D
 - 💾 **Banco relacional PostgreSQL 17.4**, com foco em performance e integridade de dados
 
 ---
-
+##💡Duvidas de ambientacao: Consultar documentacao [Notion](https://www.notion.so/DoC-site-PHP-1df0f2194d92807caed6cc88dd96bb78?pvs=4)
 
 ## 🎓 Sobre o Desenvolvedor
 
