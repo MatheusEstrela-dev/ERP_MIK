@@ -27,6 +27,7 @@ Este projeto é um ERP de um site desenvolvido em **Laravel 12**, utilizando **D
 
 ---
 ## 💡Duvidas de ambientacao: Consultar documentacao [Notion](https://www.notion.so/DoC-site-PHP-1df0f2194d92807caed6cc88dd96bb78?pvs=4)
+- 💾 Executando o arquivo main.bat na na pasta script e possivel popular ou excluir dados rapidadmente para o teste do sitema, para exemplificacao do sistema , sem impactar a parte logica do model/ controller do laravel, foi escrito em python!
 ![Main Dados](https://github.com/user-attachments/assets/57de3906-455c-4ccd-9426-113ab2a53850)
 
 ## 🎓 Sobre o Desenvolvedor
