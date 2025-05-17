@@ -6,5 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Produto extends Model
 {
-    //
+    protected $fillable = [
+        'nome',
+        'descricao',
+        'preco',
+        'categoria',
+    ];
+
+    public function estoques()
+    {
+        return $this->hasMany(Estoque::class);
+    }
 }
