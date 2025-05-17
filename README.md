@@ -1,9 +1,7 @@
-# ERP_MIK
-Projeto ERP em Laravel/ PHP
-
-# 🛒 Mini ERP Laravel - Produtos, Estoque, Cupons e Pedidos
+# 🛒 ERP_MIK Laravel - Produtos, Estoque, Cupons e Pedidos
 
 Este projeto é um ERP de um site desenvolvido em **Laravel 12**, utilizando **Docker** para padronização de ambiente e **PostgreSQL 17.4** como banco de dados relacional.
+Com a finalidade de desmonstar os meus conhecimentos com a linguaguem PHP e o FrameWork Laravel, e as Stack`s que ache relevante para o projeto
 
 ---
 
